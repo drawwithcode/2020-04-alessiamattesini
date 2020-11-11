@@ -8,8 +8,6 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
-  background('black');
 
   //write your name
   yourname = createInput();
@@ -73,9 +71,4 @@ function next_sad(){
 
   window.open("Sad.html", "_self");
 
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  background('black');
 }
